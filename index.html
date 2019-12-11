@@ -317,10 +317,10 @@
 </script>
         <script type="text/template" id="tab-3-template">
             <div id="contents_tab" class="tab_common-large m-Top4 m-Btm8">
-<a name="tab_1" class="tab_line_3 tab_text" href="#">プロフィール</a>
-<a name="tab_2" class="tab_line_3 tab_text js_tab_comment_list" href="#">セリフ一覧</a>
-<a name="tab_3" href="#" style='display:none;'>エピソード</a>
-<a name="tab_4" class="tab_line_3 tab_text" href="#">アイドル情報</a>
+<a name="tab_1" class="tab_line_3 tab_text" href="#">프로필</a>
+<a name="tab_2" class="tab_line_3 tab_text js_tab_comment_list" href="#">대사 일람</a>
+<a name="tab_3" href="#" style='display:none;'>에피소드</a>
+<a name="tab_4" class="tab_line_3 tab_text" href="#">아이돌 정보</a>
 </div>
 </script>
         <script type="text/template" id="idol-base-template">
@@ -348,8 +348,8 @@
 <div class="detail_idol_real_name" <% if(idol_detail.data.alias_name == "") { %>style="top:19px;"<% } %>><%- idol_detail.data.real_name %></div>
 </div>
 <div class="detail_idol_num_<%- idol_detail.data.attribute %>">
-<div class="detail_idol_register_num"><span class="yellow">30</span> / 30</div>
-<div class="detail_idol_love_num"><span class="yellow">30</span> / 30</div>
+<div class="detail_idol_register_num"><span class="yellow">18</span> / 18</div>
+<div class="detail_idol_love_num"><span class="yellow">18</span> / 18</div>
 </div>
 <% if(birthday_flag) { %>
 <div class="icon_birthday"></div>
@@ -602,7 +602,7 @@ kg
 </section>
 <% if(trade_prohibition.is_trade_limit) { %>
 <div class="t-Cnt red <% if(is_exist_archive) { %>m-Btm8<% } %>">
-このアイドルはトレード、フリートレード、贈り物ができません。
+이 아이돌은 트레이드, 프리 트레이드, 선물을 할 수 없습니다.
 </div>
 <% } %>
 <div class="area-btn-common _base-width">
@@ -615,7 +615,7 @@ kg
 </div>
 <% if (event) { %>
 <h3 class="title_hanyo m-Top8 m-Btm8">
-<div>登場イベント</div>
+<div>등장 이벤트</div>
 </h3>
 <% Object.keys(event).forEach(function (key) { %>
 <div class="t-Cnt m-Btm5">
