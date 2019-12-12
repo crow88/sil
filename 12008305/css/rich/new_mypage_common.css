@@ -17860,19 +17860,19 @@ body#battles .fukidashiWrap .fukidashi img.voiceIdol {
 }
 
 .idolProfile.deck .profile_top {
-    background: url(../../../12008305/image_sp/ui/gallery%2Fline_up.png%3F1285858800) center top no-repeat;
+    background: url(../../../12008305/image_sp/ui/gallery/line_up.png) center top no-repeat;
     background-size: 314px;
     height: 12px
 }
 
 .idolProfile.deck .profile_bottom {
-    background: url(../../../12008305/image_sp/ui/gallery%2Fline_down.png%3F1285858800) center bottom no-repeat;
+    background: url(../../../12008305/image_sp/ui/gallery/line_down.png) center bottom no-repeat;
     background-size: 314px;
     height: 12px
 }
 
 .idolProfile.deck .profile_content {
-    background: url(../../../12008305/image_sp/ui/gallery%2Fline_middle.png%3F1285858800) center top repeat-y;
+    background: url(../../../12008305/image_sp/ui/gallery/line_middle.png) center top repeat-y;
     background-size: 314px;
     padding-bottom: 2px
 }
@@ -22211,7 +22211,7 @@ input[type="submit"].submit_reset_style {
 }
 
 .profile_area .profile_line {
-    background: url(../../../12008305/image_sp/ui/gallery%2Fline_dot.png%3F1285858800) no-repeat;
+    background: url(../../../12008305/image_sp/ui/gallery/line_dot.png) no-repeat;
     background-size: 308px 4px;
     width: 308px;
     height: 4px
