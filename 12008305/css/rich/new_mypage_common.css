@@ -32064,7 +32064,7 @@ a.check_close_btn.petit {
 .derepo .comment li .idol_name,
 .derepo .comment li .idol_detail {
     float: right;
-    width: 210px;
+    width: 230px;
     color: #000000;
     padding: 3px 4px;
     line-height: 130%;
@@ -32080,6 +32080,7 @@ a.check_close_btn.petit {
 
 .derepo .main_comment li .idol_detail,
 .derepo .comment li .idol_detail {
+    margin-top: -6px;
     clear: both;
     font-size: 12px;
     font-weight: normal;
@@ -32105,6 +32106,7 @@ a.check_close_btn.petit {
 }
 
 .derepo .comment li .idol_stamp {
+    float: right;
     width: 60px;
-    height: 60px;
+    height: 60px
 }
