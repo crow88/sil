@@ -32107,7 +32107,8 @@ a.check_close_btn.petit {
 }
 
 .derepo .comment li .idol_stamp {
-    position: absolute;
+    float: left;
+    left: 61px;
     width: 60px;
     height: 60px
 }
