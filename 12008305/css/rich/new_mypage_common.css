@@ -32100,7 +32100,8 @@ a.check_close_btn.petit {
     text-align: right
 }
 
-.derepo .main_comment li .idol_sns_img {
+.derepo .main_comment li .idol_sns_img,
+.derepo .comment li .idol_sns_img {
   width: 80%;
   margin-left: auto;
   margin-right: auto
