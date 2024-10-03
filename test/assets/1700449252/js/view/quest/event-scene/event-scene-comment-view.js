@@ -1,1 +1,0 @@
-define(["underscore","backbone","view/quest/abstract-view"],function(a,b,c){var d=c.extend({el:".prt-scene-comment",show:function(){this.$el.show()},hide:function(){this.$el.hide()}});return d});

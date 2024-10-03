@@ -1,1 +1,0 @@
-define(["jquery","backbone"],function(a,b){var c=b.Model.extend({defaults:{manifest:[{src:Game.imgUri+"/sp/cjs/fadeinout_slide.png",id:"fadeinout_slide",type:"image"}]}});return c});

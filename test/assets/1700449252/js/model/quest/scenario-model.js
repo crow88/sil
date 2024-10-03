@@ -1,1 +1,0 @@
-define(["model/data"],function(a){var b=a.extend({});return b});
